@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.field {
+  display: table;
+}
+
+.field h1 {
+  display: table-caption;
+}
+
+.field ul {
+  display: table-row;
+}
+
+.field li {
+  display: table-cell;
+}
