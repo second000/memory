@@ -1,14 +1,16 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #e6e3e1;
+  color: #d81b60;
+  font-size: 18px;
 }
 
 .field {
   display: table;
-}
-
-.field h1 {
-  display: table-caption;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 10px;
 }
 
 .field ul {
@@ -16,5 +18,20 @@ body {
 }
 
 .field li {
+  padding: 40px;
   display: table-cell;
+  border: 1px solid #d81b60;
+  border-radius: 5%;
+}
+
+.main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
